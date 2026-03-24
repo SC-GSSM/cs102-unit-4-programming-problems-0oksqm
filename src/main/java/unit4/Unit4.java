@@ -2,13 +2,6 @@ package unit4;
 
 public class Unit4 {
 
-    public static void main(String[] args) {
-        // Test your methods here by creating an instance and calling methods
-        Unit4 unit = new Unit4();
-        // Example: test sumNumbers
-        
-
-    }
 
     /**
      * Calculates the sum of all integers from 1 to n (inclusive).
