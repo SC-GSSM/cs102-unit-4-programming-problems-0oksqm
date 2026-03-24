@@ -6,13 +6,7 @@ public class Unit4 {
         // Test your methods here by creating an instance and calling methods
         Unit4 unit = new Unit4();
         // Example: test sumNumbers
-        System.out.println("sumNumbers(5) = " + unit.sumNumbers(5));  // Expected: 15
-        System.out.println(unit.repeatString("cat", 5));
-        System.out.println(unit.findFactorial(6));
-        System.out.println(unit.countVowels("Cat"));
-        System.out.println(unit.isPalindrome("poop"));
-        unit.printAsteriskPatterns(4);
-        unit.multiplicationTable(4);
+        
 
     }
 
@@ -196,7 +190,7 @@ public class Unit4 {
         }
         System.out.print("\n");
         
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i <= n; i++){
             for(int j = 0; j < n; j++){
                 System.out.print("*");
             }
